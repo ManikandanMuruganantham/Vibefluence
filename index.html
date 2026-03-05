@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Vibefluence Logo" style="display:block;margin:0 auto 24px auto;max-width:220px;width:100%;">
         <h1>Vibefluence Digital Marketing</h1>
         <p>Grow your business online with expert digital marketing solutions</p>
         <nav>
@@ -59,13 +60,13 @@
     <section class="hero" id="contact">
         <h2>Contact Us</h2>
         <p>Ready to grow your business? Reach out for a free consultation and let's discuss your goals!</p>
-        <form style="max-width:400px;margin:0 auto;text-align:left;">
+        <form action="https://formspree.io/f/xwkzqgqg" method="POST" style="max-width:400px;margin:0 auto;text-align:left;">
             <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"><br>
+            <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"><br>
             <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"><br>
+            <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"><br>
             <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="4" style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"></textarea><br>
+            <textarea id="message" name="message" rows="4" required style="width:100%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"></textarea><br>
             <button class="cta-btn" type="submit">Send Message</button>
         </form>
     </section>
